@@ -1,0 +1,137 @@
+.btn-head {
+    background-color: rgb(73, 185, 180);
+    border: none;
+    color: black;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-head:hover {
+    color: rgb(180, 73, 11);
+}
+
+.navbar-container {
+    top: 0;
+    position: sticky;
+    z-index: 3;
+    font-size: 18px;
+    text-align: center;
+}
+
+.nav-link:hover {
+    background-color: rgb(11, 112, 138);
+    ;
+}
+
+.dropbtn {
+    padding: 9px;
+    font-size: 18px;
+    border: none;
+}
+
+.dropbtn:hover {
+    background-color: rgb(11, 112, 138);
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #85accc;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 5px 9px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(11, 112, 138);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: rgb(180, 73, 11);
+}
+
+.hotline-phone-ring-circle {
+    border-color: #107b7b;
+}
+
+.hotline-phone-ring-circle-fill,
+.hotline-phone-ring-img-circle,
+.hotline-bar {
+    background-color: #107b7b;
+}
+
+.hotline-bar {
+    background: rgb( 16, 123, 123, .7);
+}
+
+.no-js img.lazyload {
+    display: none;
+}
+
+figure.wp-block-image img.lazyloading {
+    min-width: 150px;
+}
+
+.lazyload,
+.lazyloading {
+    opacity: 0;
+}
+
+.lazyloaded {
+    opacity: 1;
+    transition: opacity 400ms;
+    transition-delay: 0ms;
+}
+
+.hotline-phone-ring-img-circle .pps-btn-img img {
+    width: 20px;
+    height: 20px;
+}
+
+.lazyloaded {
+    opacity: 1;
+    transition: opacity 400ms;
+    transition-delay: 0ms;
+}
+
+img {
+    height: auto;
+}
+
+img {
+    vertical-align: middle;
+}
+
+img {
+    border: 0;
+}
+
+@media screen and (max-width:576px) {
+    .icon_btn.navbar.headslider.welcome-container.director-container.testimonal-container .fotter-container .title {
+        font-size: 18px;
+    }
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .navbar-container {}
+}

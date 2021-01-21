@@ -1,0 +1,97 @@
+.our-team {
+    border-top: 1px solid rgb(247, 232, 232);
+    background: #fff;
+    border-radius: 5px;
+    margin-top: 72px;
+    margin-left: 250px;
+}
+
+.our-team .pic {
+    width: 40%;
+    border: 3px solid rgb(211, 111, 53);
+    border-radius: 60px 0;
+    margin: -72px auto 0;
+    overflow: hidden;
+    transition: all 0.20s ease 0s;
+}
+
+.our-team:hover .pic {
+    border-radius: 50%;
+    border-color: #6e9ecf;
+}
+
+.our-team .pic img {
+    width: 100%;
+    height: auto;
+}
+
+.our-team .team-content {
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.our-team .team-title {
+    font-size: 24px;
+    color: #333;
+    margin: 20px 0 0;
+    text-transform: uppercase;
+}
+
+.our-team .post {
+    font-size: 16px;
+    color: #333;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.our-team .description {
+    font-size: 16px;
+    font-weight: 300;
+    color: #333;
+    padding: 0 35px;
+    line-height: 22px;
+    margin-bottom: 60px;
+}
+
+.our-team .social-links {
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    bottom: -17%;
+    left: 0;
+    margin: 0;
+    padding: 9px 0;
+    list-style: none;
+    background: rgb(211, 111, 53);
+    transition: all 0.20s linear 0s;
+}
+
+.our-team:hover .social-links {
+    bottom: 0;
+}
+
+.our-team .social-links li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.our-team .social-links li a {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.our-team .social-links li a:hover {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 990px) {
+    .our-team {
+        margin-top: 80px;
+    }
+}
